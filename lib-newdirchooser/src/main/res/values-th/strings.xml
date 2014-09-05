@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="confirm_label">ยืนยัน</string>
+    <string name="selected_folder_label">โฟลเดอร์ที่เลือก: </string>
+    <string name="create_folder_label">สร้างโฟลเดอร์</string>
+    <string name="create_folder_msg">สร้างโฟลเดอร์ใหม่ที่มีชื่อ "%1$s"?</string>
+    <string name="create_folder_success">โฟลเดอร์ใหม่ที่สร้างขึ้น</string>
+    <string name="create_folder_error_no_write_access">ไม่สามารถเขียนลงในโฟลเดอร์นี้</string>
+    <string name="create_folder_error_already_exists">โฟลเดอร์ที่มีอยู่แล้ว</string>
+    <string name="create_folder_error">ไม่สามารถสร้างโฟลเดอร์</string>
+    <string name="up_label">ขึ้น</string>
+    <string name="internal_label">Internal</string>
+    <string name="sdcard_label">SDcard</string>
+</resources>

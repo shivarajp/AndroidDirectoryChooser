@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="confirm_label">أكد</string>
+    <string name="selected_folder_label">المجلد المحدد:</string>
+    <string name="create_folder_label">إنشاء مجلد</string>
+    <string name="create_folder_msg">"%1$s" إنشاء مجلد جديد مع اسم</string>
+    <string name="create_folder_success">خلق مجلد جديد</string>
+    <string name="create_folder_error_no_write_access">لا يمكن الكتابة إلى هذا المجلد</string>
+    <string name="create_folder_error_already_exists">المجلد موجود مسبقا</string>
+    <string name="create_folder_error">تعذر إنشاء مجلد</string>
+    <string name="up_label">فوق</string>
+    <string name="internal_label">Internal</string>
+    <string name="sdcard_label">SDcard</string>
+</resources>

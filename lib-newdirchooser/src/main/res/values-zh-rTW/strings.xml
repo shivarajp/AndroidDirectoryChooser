@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="confirm_label">確認</string>
+    <string name="selected_folder_label">選定的文件夾：</string>
+    <string name="create_folder_label">創建文件夾</string>
+    <string name="create_folder_msg">創建一個名為"%1$s"的新文件夾？</string>
+    <string name="create_folder_success">創建新的文件夾</string>
+    <string name="create_folder_error_no_write_access">不能寫這個文件夾</string>
+    <string name="create_folder_error_already_exists">文件夾已經存在</string>
+    <string name="create_folder_error">無法創建文件夾</string>
+    <string name="up_label">向上</string>
+    <string name="internal_label">Internal</string>
+    <string name="sdcard_label">SDcard</string>
+</resources>

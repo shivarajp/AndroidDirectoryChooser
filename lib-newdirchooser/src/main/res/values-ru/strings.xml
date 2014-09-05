@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="confirm_label">подтверждать</string>
+    <string name="selected_folder_label">Выбранной папки:</string>
+    <string name="create_folder_label">Создать папку</string>
+    <string name="create_folder_msg">Создать новую папку с именем "%1$s"?</string>
+    <string name="create_folder_success">Дата создания новой папки</string>
+    <string name="create_folder_error_no_write_access">Невозможно записать в эту папку</string>
+    <string name="create_folder_error_already_exists">Папка уже существует</string>
+    <string name="create_folder_error">Не удалось создать папку</string>
+    <string name="up_label">вверх</string>
+    <string name="internal_label">Internal</string>
+    <string name="sdcard_label">SDcard</string>
+</resources>

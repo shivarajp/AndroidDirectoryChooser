@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="confirm_label">xác nhận</string>
+    <string name="selected_folder_label">Thư mục được chọn:</string>
+    <string name="create_folder_label">tạo thư mục </string>
+    <string name="create_folder_msg">Tạo thư mục mới với tên "%1$s"?</string>
+    <string name="create_folder_success">Tạo thư mục mới</string>
+    <string name="create_folder_error_no_write_access">Không thể ghi vào thư mục này</string>
+    <string name="create_folder_error_already_exists">Thư mục đã tồn tại</string>
+    <string name="create_folder_error">Không thể tạo thư mục</string>
+    <string name="up_label">lên</string>
+    <string name="internal_label">Internal</string>
+    <string name="sdcard_label">SDcard</string>
+</resources>
