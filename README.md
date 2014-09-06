@@ -8,16 +8,9 @@ In this example it creates a dialog if the device has SDcard shows the SDcard bu
 Part of the code when Sdcard tab is clicked
 
 
- mSdcardLayout.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String sdCardPath;
-                /***
-                 * Null check because user may click on already selected buton before selecting the folder
-                 * And mSelectedDir may contain some wrong path like when user confirm dialog and swith back again
-                 */
+ 
 
-                if (mSelectedDir != null && !mSelectedDir.getAbsolutePath().contains(System.getenv("SECONDARY_STORAGE"))) {
+                if (mSelectedDir != null && !mSelectedDir.getAbsolutePath().contains(System.getenv("SECONDARY_STORAGE")))                 {
                     mCurrentInternalPath = mSelectedDir.getAbsolutePath();
                 } else {
                     mCurrentInternalPath = getInternalDirectoryPath();
@@ -48,4 +41,43 @@ Part of the code when Sdcard tab is clicked
 
 
             }
-        });
+        
+        
+        
+Helper Methods
+
+
+     /**
+     * Return's the Internal or SDCard based on user's previously selected path.
+     * Based on this button color's are updated.
+     *
+     * @param path
+     * @return
+     */
+    private int rootOfThePath(String path) {
+        if (path.contains("" + getInternalDirectoryPath())) {
+            return STORAGE_INTERNAL;
+        } else if (path.contains("" + getSDcardDirectoryPath())) {
+            return STORAGE_EXTERNAL;
+        }
+        return STORAGE_INTERNAL;
+    }
+
+    /**
+     * Returns the path to internal storage ex:- /storage/emulated/0
+     *
+     * @return
+     */
+    private String getInternalDirectoryPath() {
+        return Environment.getExternalStorageDirectory().getAbsolutePath();
+    }
+
+    /**
+     * Returns the SDcard storage path for samsung ex:- /storage/extSdCard
+     *
+     * @return
+     */
+    private String getSDcardDirectoryPath() {
+        return System.getenv("SECONDARY_STORAGE");
+    }
+
